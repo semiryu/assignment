@@ -1,0 +1,363 @@
+body{
+    background: linear-gradient(to right , #f5e5b8, #f9cbdb, #ade0f9, #d7c0da, #d6d8c9);
+   margin: 0px;
+   padding: 0px;
+  
+}
+.container{
+    display: flex;
+    gap: 7px;
+}
+.left{
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 100px;
+  gap: 10px;
+}
+.top{
+ display:flex ;
+ gap: 5px;
+ width: 800px;
+ height: 250px;
+ padding-top: 50px;
+ padding-left: 40px;
+ background-color: rgb(255, 255, 255, 0.3); 
+ margin-top: -60px;
+
+}
+.we h4{
+    margin-left: 30px;
+}
+.top h4{
+    flex-direction: column;
+} 
+
+.top1{
+  background-color: white;
+  width: 450px;
+  height: 230px;
+}
+.cont{
+    margin-left: 150px;
+    flex-direction: column;
+    
+}
+.cont img{
+    margin-left: 70px;
+    background-color: #039dfc;
+    margin-right: 50px;
+}
+.cont h4{
+    margin-top: -5px;
+    margin-right: 50px;
+}
+
+.cont p{
+    margin-top: -10px;
+    margin-right: 50px;
+}
+
+.top1 button{
+    margin-top: 30px;
+    margin-left: 200px;
+    color: rgba(239, 239, 248, 0.94);
+    background-color: #039dfc;
+    border-color: #039dfc;
+    height: 25px;
+}
+.top2{
+    background-color: white;
+    width: 330px;
+    height: 230px;
+}
+.bottom{
+display: flex;
+padding-bottom: 50px;
+gap: 7px;
+}
+.bottom1{
+    background-color: rgb(255, 255, 255, 0.3); 
+    width: 275px;
+    height: 330px;
+}
+.bottom2{
+    background-color: rgb(255, 255, 255, 0.3); 
+    
+    width: 275px;
+    height: 330px;
+}
+.bottom3{
+    background-color: rgb(255, 255, 255, 0.3); 
+    background-color: rgb(255, 255, 255, 0.3); 
+    width: 275px;
+    height: 330px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 100px;
+    
+}
+.right1{
+    background-color: rgb(255, 255, 255, 0.3);
+   width:  275px;
+   height: 140px;   
+}
+.right2{
+    background-color: rgb(255, 255, 255, 0.3);
+   width:  275px;
+   height: 140px; 
+   margin-top: 10px;
+}
+.right3{
+    background-color: rgb(255, 255, 255, 0.3); 
+ margin-top: 5px;
+    width: 275px;
+    height: 330px; 
+}
+.heading{
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 70px;
+    margin-bottom: -100px;
+    margin-top: -20px;
+}
+.heading h4{
+    margin-top: -20px;
+   margin-left: 80px;
+   font-family: sans-serif;
+ letter-spacing: 3px;
+
+}
+.we{
+    flex-direction: column;
+}
+.but1{
+    display: flex;
+    gap: 20px;
+    width: 100px;
+    margin-left: 80px;
+}
+.p{
+    margin-left: 50px;
+}
+.pp{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-bottom: 200px;
+}
+.bo{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+.bo2{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+.bo3{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+.bo4{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+.bo6{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+.che{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+#f{
+    text-decoration: none; 
+     background-color: aqua;
+}
+.center{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+ }
+ .center input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: .5s;
+    
+
+
+}
+ .center input:checked[type="checkbox"]{
+    background: #03a9f4;
+
+}
+.center input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: .5s;
+}
+.center input:checked[type="checkbox"]::before{
+    left: 25px;
+}
+.st{
+    display: flex;
+    gap: 10px;
+}
+.st1{
+    display: flex;
+    gap: 10px;
+}
+.st2{
+    display: flex;
+    gap: 10px;
+}
+.st3{
+    display: flex;
+    gap: 10px;
+}
+.st4{
+    display: flex;
+    gap: 10px;
+}
+.st5{
+    display: flex;
+    gap: 10px;
+}
+.stt{
+    margin-top: 20px;
+}
+.center .st2 input::before{
+    content: "OF";
+    color:white;
+}
+.center .st2 input::after{
+    content: "ON";
+    color: white;
+
+}
+.center .st3 input::before{
+    content: "OF";
+    color:white;
+    left: 30px;
+}
+.center .st3 input::after{
+    content: "ON";
+    color: black;
+    right: 30px;
+
+}
+.center .st4 input::before{
+        content: "\2713";
+        color:white;
+    }
+    .center .st4 input::after{
+        content: "\2713";
+        color: white;
+        margin-left: 5px;
+    
+    }
+    .center .st5 input::before{
+        content: "\2713";
+        color:white;
+        left: 25px;
+    }
+    .center .st5 input::after{
+        content: "\2713";
+        color: black;
+        margin-left: 5px;
+        right: 25px;
+    
+    }
+    .center .st1 input::before{
+        content: "\2713";
+        color:white;
+        left: 25px;
+    }
+    .slider-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -330px;
+        margin-top: -320px;
+        gap: 20px;
+          .slider {
+            appearance: none;
+            width: 100px;
+            height: 5px;
+            background: #fff;
+            border-radius:10px ;
+            margin-left: 150px;
+      
+          }
+       
+      
+      }
+      .progress-bar-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.progress-container {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+.progress-container2 {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  
+
+.progress-bar {
+  width: 80%;
+  height: 5px;
+ border-radius: 5px;
+  background-color:#0370bb;
+  
+  line-height: 30px;
+ 
+}
+.progress-bar2 {
+  width: 80%;
+  height: 10px;
+ border-radius: 5px;
+  background-color:#0370bb;
+  
+  line-height: 30px;
+ 
+}
